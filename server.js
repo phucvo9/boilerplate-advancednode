@@ -1,7 +1,6 @@
 'use strict';
 require('dotenv').config();
 const express = require('express');
-const session = require('express-session');
 const passport = require('passport'); 
 const myDB = require('./connection');
 const fccTesting = require('./freeCodeCamp/fcctesting.js');
